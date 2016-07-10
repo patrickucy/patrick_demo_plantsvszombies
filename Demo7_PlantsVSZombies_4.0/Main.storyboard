@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="TRViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="OXO-hX-AvS"/>
+                        <viewControllerLayoutGuide type="bottom" id="f3s-xM-Kid"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bk1" translatesAutoresizingMaskIntoConstraints="NO" id="JAJ-gf-hil">
+                                <rect key="frame" x="0.0" y="0.0" width="720" height="320"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="seedbank" translatesAutoresizingMaskIntoConstraints="NO" id="BFW-mL-uL9">
+                                <rect key="frame" x="61" y="0.0" width="393" height="42"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sunbank" translatesAutoresizingMaskIntoConstraints="NO" id="z72-I8-gcj">
+                                <rect key="frame" x="8" y="0.0" width="45" height="50"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="shovel_bk" translatesAutoresizingMaskIntoConstraints="NO" id="H9P-CU-Iuq">
+                                <rect key="frame" x="480" y="0.0" width="50" height="50"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6k7-DW-2Ff">
+                                <rect key="frame" x="70" y="3" width="30" height="35"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" tag="1" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LkF-Dv-TO9">
+                                <rect key="frame" x="108" y="3" width="30" height="35"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" tag="2" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="U9u-M2-z8b">
+                                <rect key="frame" x="146" y="3" width="30" height="35"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" tag="3" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="62v-6B-hco">
+                                <rect key="frame" x="184" y="3" width="30" height="35"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AEf-qO-Af0">
+                                <rect key="frame" x="70" y="44" width="40" height="50"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PZD-bG-XTe">
+                                <rect key="frame" x="70" y="148" width="40" height="50"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0dj-i0-eag">
+                                <rect key="frame" x="70" y="96" width="40" height="50"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aVh-Vh-LV4">
+                                <rect key="frame" x="70" y="200" width="40" height="50"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KWP-Uz-Zj7">
+                                <rect key="frame" x="70" y="252" width="40" height="50"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3Wn-EC-MPX">
+                                <rect key="frame" x="117" y="44" width="40" height="50"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Rdp-fx-eIg">
+                                <rect key="frame" x="117" y="148" width="40" height="50"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HI0-TT-FXt">
+                                <rect key="frame" x="117" y="96" width="40" height="50"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="d49-gG-xnL">
+                                <rect key="frame" x="117" y="200" width="40" height="50"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="A1t-gO-A1W">
+                                <rect key="frame" x="117" y="252" width="40" height="50"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vEI-N7-WH0">
+                                <rect key="frame" x="164" y="44" width="40" height="50"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Osg-ki-efh">
+                                <rect key="frame" x="164" y="148" width="40" height="50"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Fpt-73-NgA">
+                                <rect key="frame" x="164" y="96" width="40" height="50"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cbd-2G-jMC">
+                                <rect key="frame" x="164" y="200" width="40" height="50"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sh6-XA-6Px">
+                                <rect key="frame" x="164" y="252" width="40" height="50"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WvY-tc-A7I">
+                                <rect key="frame" x="211" y="44" width="40" height="50"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="69s-Cq-lrj">
+                                <rect key="frame" x="211" y="148" width="40" height="50"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bKa-Ar-hSG">
+                                <rect key="frame" x="211" y="96" width="40" height="50"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="21h-xE-ZRF">
+                                <rect key="frame" x="211" y="200" width="40" height="50"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GV7-YY-cgi">
+                                <rect key="frame" x="211" y="252" width="40" height="50"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UvY-90-9Ev">
+                                <rect key="frame" x="257" y="44" width="40" height="50"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nGw-X2-JQ0">
+                                <rect key="frame" x="257" y="148" width="40" height="50"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Sf5-6B-eKN">
+                                <rect key="frame" x="257" y="96" width="40" height="50"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LVo-bM-fae">
+                                <rect key="frame" x="257" y="200" width="40" height="50"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pP0-xh-yFb">
+                                <rect key="frame" x="257" y="252" width="40" height="50"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="a9L-l3-RNb">
+                                <rect key="frame" x="303" y="44" width="40" height="50"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hUI-g4-ry8">
+                                <rect key="frame" x="303" y="148" width="40" height="50"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dK8-TI-15I">
+                                <rect key="frame" x="303" y="96" width="40" height="50"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZYO-6C-AT0">
+                                <rect key="frame" x="303" y="200" width="40" height="50"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9ks-C9-Zgj">
+                                <rect key="frame" x="303" y="252" width="40" height="50"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="p4C-bY-dtT">
+                                <rect key="frame" x="347" y="44" width="40" height="50"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uO0-X7-Au2">
+                                <rect key="frame" x="347" y="148" width="40" height="50"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iks-l8-6fp">
+                                <rect key="frame" x="347" y="96" width="40" height="50"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tJc-W9-1Vc">
+                                <rect key="frame" x="347" y="200" width="40" height="50"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="C1R-f0-Jn0">
+                                <rect key="frame" x="347" y="252" width="40" height="50"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2eu-zV-v9D">
+                                <rect key="frame" x="393" y="44" width="40" height="50"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1nX-4B-3HC">
+                                <rect key="frame" x="393" y="148" width="40" height="50"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XbN-2u-Cpj">
+                                <rect key="frame" x="393" y="96" width="40" height="50"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TZs-Wr-NUu">
+                                <rect key="frame" x="393" y="200" width="40" height="50"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="acE-MK-hUk">
+                                <rect key="frame" x="393" y="252" width="40" height="50"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="314-TT-gim">
+                                <rect key="frame" x="438" y="44" width="40" height="50"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3z4-y5-PRc">
+                                <rect key="frame" x="438" y="148" width="40" height="50"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HA6-lk-lGC">
+                                <rect key="frame" x="438" y="96" width="40" height="50"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KgB-AW-8ec">
+                                <rect key="frame" x="438" y="200" width="40" height="50"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qA5-RB-nOi">
+                                <rect key="frame" x="438" y="252" width="40" height="50"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1000" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wbD-dy-Rak">
+                                <rect key="frame" x="9" y="32" width="37" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <connections>
+                        <outlet property="sunCountLabel" destination="wbD-dy-Rak" id="tME-q1-Tx2"/>
+                        <outletCollection property="plants" destination="6k7-DW-2Ff" id="tde-2w-uZy"/>
+                        <outletCollection property="plants" destination="LkF-Dv-TO9" id="esC-tH-Gwp"/>
+                        <outletCollection property="plants" destination="U9u-M2-z8b" id="yyT-D8-WCz"/>
+                        <outletCollection property="plants" destination="62v-6B-hco" id="Bq5-xf-NRg"/>
+                        <outletCollection property="boxes" destination="AEf-qO-Af0" id="quv-Jk-j3v"/>
+                        <outletCollection property="boxes" destination="0dj-i0-eag" id="6BO-8G-74b"/>
+                        <outletCollection property="boxes" destination="PZD-bG-XTe" id="mmt-7A-wOv"/>
+                        <outletCollection property="boxes" destination="aVh-Vh-LV4" id="IZn-WS-IRP"/>
+                        <outletCollection property="boxes" destination="KWP-Uz-Zj7" id="31H-Sc-lOz"/>
+                        <outletCollection property="boxes" destination="A1t-gO-A1W" id="cll-mx-2ht"/>
+                        <outletCollection property="boxes" destination="d49-gG-xnL" id="aAq-mY-iOh"/>
+                        <outletCollection property="boxes" destination="Rdp-fx-eIg" id="mgN-T1-JH5"/>
+                        <outletCollection property="boxes" destination="HI0-TT-FXt" id="O8R-iK-wHY"/>
+                        <outletCollection property="boxes" destination="3Wn-EC-MPX" id="7S2-Lk-icI"/>
+                        <outletCollection property="boxes" destination="vEI-N7-WH0" id="v0f-ia-QUq"/>
+                        <outletCollection property="boxes" destination="Fpt-73-NgA" id="VKA-Oa-ro3"/>
+                        <outletCollection property="boxes" destination="Osg-ki-efh" id="JSE-WZ-Jaa"/>
+                        <outletCollection property="boxes" destination="cbd-2G-jMC" id="xq1-yb-t17"/>
+                        <outletCollection property="boxes" destination="sh6-XA-6Px" id="fPR-ca-2f9"/>
+                        <outletCollection property="boxes" destination="GV7-YY-cgi" id="uoM-3m-LP4"/>
+                        <outletCollection property="boxes" destination="21h-xE-ZRF" id="kbx-7n-PMG"/>
+                        <outletCollection property="boxes" destination="69s-Cq-lrj" id="hir-Ys-btr"/>
+                        <outletCollection property="boxes" destination="bKa-Ar-hSG" id="Fbe-XI-6FQ"/>
+                        <outletCollection property="boxes" destination="WvY-tc-A7I" id="VEc-Sb-Yjn"/>
+                        <outletCollection property="boxes" destination="UvY-90-9Ev" id="FZl-ao-NI1"/>
+                        <outletCollection property="boxes" destination="Sf5-6B-eKN" id="IdJ-FV-F1f"/>
+                        <outletCollection property="boxes" destination="nGw-X2-JQ0" id="W7L-X5-2y2"/>
+                        <outletCollection property="boxes" destination="LVo-bM-fae" id="kJH-gW-bJb"/>
+                        <outletCollection property="boxes" destination="pP0-xh-yFb" id="wxM-R0-nvR"/>
+                        <outletCollection property="boxes" destination="9ks-C9-Zgj" id="a7g-84-TTj"/>
+                        <outletCollection property="boxes" destination="ZYO-6C-AT0" id="SAy-yq-TCY"/>
+                        <outletCollection property="boxes" destination="hUI-g4-ry8" id="X1g-lb-vfF"/>
+                        <outletCollection property="boxes" destination="dK8-TI-15I" id="a82-0H-svU"/>
+                        <outletCollection property="boxes" destination="a9L-l3-RNb" id="nEu-5B-TwC"/>
+                        <outletCollection property="boxes" destination="C1R-f0-Jn0" id="5xI-jM-ujR"/>
+                        <outletCollection property="boxes" destination="tJc-W9-1Vc" id="GAo-kG-9of"/>
+                        <outletCollection property="boxes" destination="uO0-X7-Au2" id="xQM-Ov-uNE"/>
+                        <outletCollection property="boxes" destination="iks-l8-6fp" id="ioF-dM-lcN"/>
+                        <outletCollection property="boxes" destination="p4C-bY-dtT" id="yhP-Fq-Za7"/>
+                        <outletCollection property="boxes" destination="2eu-zV-v9D" id="BVM-14-1Xj"/>
+                        <outletCollection property="boxes" destination="XbN-2u-Cpj" id="Y2o-FE-vzf"/>
+                        <outletCollection property="boxes" destination="1nX-4B-3HC" id="D5S-4G-6c8"/>
+                        <outletCollection property="boxes" destination="TZs-Wr-NUu" id="ulC-zp-hLk"/>
+                        <outletCollection property="boxes" destination="acE-MK-hUk" id="L5A-Xa-Hj7"/>
+                        <outletCollection property="boxes" destination="qA5-RB-nOi" id="e0G-rp-G7h"/>
+                        <outletCollection property="boxes" destination="KgB-AW-8ec" id="Yqq-AL-gHF"/>
+                        <outletCollection property="boxes" destination="3z4-y5-PRc" id="fTg-Eg-fRu"/>
+                        <outletCollection property="boxes" destination="HA6-lk-lGC" id="Jsv-3t-zHo"/>
+                        <outletCollection property="boxes" destination="314-TT-gim" id="CV4-hh-4Po"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="48" y="169"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bk1" width="677" height="320"/>
+        <image name="seedbank" width="375" height="87"/>
+        <image name="shovel_bk" width="70" height="72"/>
+        <image name="sunbank" width="78" height="87"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
